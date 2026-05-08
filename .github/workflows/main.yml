@@ -1,0 +1,13 @@
+name: misabah
+
+on: 
+  push:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: greetings
+        run: echo "hello "
